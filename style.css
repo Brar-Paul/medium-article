@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&family=Shadows+Into+Light&family=Titillium+Web&display=swap');
+
+@media(max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 40px;
+  color: #fdfffc;
+  padding-top: 120px;
+  padding-right: 0px;
+  padding-bottom: 120px;
+  padding-left: 0px;
+}
+
+.banner p {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 30px;
+  color: #fdfffc;
+  text-align: left;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+body {
+  color: #494949;
+  background-color: #fdfffc;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Titillium Web', sans-serif;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+.medium-link:hover {
+  background-image: linear-gradient(to bottom, rgba(50, 40, 100, 1), rgba(50, 40, 100, 1));
+}
+
+.medium-link {
+  background-image: linear-gradient(to bottom, rgba(50, 60, 120, .7), rgba(50, 60, 120, .7));
+  color: #fdfffc;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
